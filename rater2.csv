@@ -1,0 +1,81 @@
+LLM,Promptiong Strategy,Assurance Case,Criteria,,,Informativeness,Coherence,Usefulness
+GPT4.1,CoT Zero-Shot,GPCA,Argument Comprehension,1,,1=Totally Informative,2=Mostly Coherent,3=Moderately Useful
+,,,,2,,1=Totally Informative,2=Mostly Coherent,3=Moderately Useful
+,,,,3,,1=Totally Informative,3=Moderately Coherent,3=Moderately Useful
+,,,,4,,1=Totally Informative,2=Mostly Coherent,3=Moderately Useful
+,,,,5,,1=Totally Informative,2=Mostly Coherent,3=Moderately Useful
+,,,Well-Formedness(Syntax),1,,1=Totally Informative,2=Mostly Coherent,1=Totally Useful
+,,,,2,,1=Totally Informative,2=Mostly Coherent,1=Totally Useful
+,,,,3,,1=Totally Informative,2=Mostly Coherent,1=Totally Useful
+,,,,4,,1=Totally Informative,2=Mostly Coherent,1=Totally Useful
+,,,,5,,1=Totally Informative,2=Mostly Coherent,1=Totally Useful
+,,,Expressive Sufficiency ,1,,1=Totally Informative,3=Moderately Coherent,3=Moderately Useful
+,,,,2,,2=Mostly Informative,2=Mostly Coherent,2=Mostly Useful
+,,,,3,,1=Totally Informative,2=Mostly Coherent,3=Moderately Useful
+,,,,4,,1=Totally Informative,2=Mostly Coherent,1=Totally Useful
+,,,,5,,2=Mostly Informative,2=Mostly Coherent,2=Mostly Useful
+,,,Argument Criticism and Defeat,1,,1=Totally Informative,2=Mostly Coherent,2=Mostly Useful
+,,,,2,,2=Mostly Informative,2=Mostly Coherent,2=Mostly Useful
+,,,,3,,1=Totally Informative,2=Mostly Coherent,3=Moderately Useful
+,,,,4,,2=Mostly Informative,3=Moderately Coherent,3=Moderately Useful
+,,,,5,,1=Totally Informative,2=Mostly Coherent,2=Mostly Useful
+GPT4.1,CoT One-shot,GPCA,Argument Comprehension,1,,2=Mostly Informative,3=Moderately Coherent,3=Moderately Useful
+,,,,2,,2=Mostly Informative,2=Mostly Coherent,3=Moderately Useful
+,,,,3,,1=Totally Informative,4=Slightly Coherent,4=Slightly Useful
+,,,,4,,3=Moderately Informative,3=Moderately Coherent,4=Slightly Useful
+,,,,5,,1=Totally Informative,2=Mostly Coherent,3=Moderately Useful
+,,,Well-Formedness(Syntax),1,,1=Totally Informative,2=Mostly Coherent,1=Totally Useful
+,,,,2,,1=Totally Informative,2=Mostly Coherent,1=Totally Useful
+,,,,3,,1=Totally Informative,2=Mostly Coherent,1=Totally Useful
+,,,,4,,1=Totally Informative,2=Mostly Coherent,1=Totally Useful
+,,,,5,,1=Totally Informative,2=Mostly Coherent,1=Totally Useful
+,,,Expressive Sufficiency ,1,,1=Totally Informative,4=Slightly Coherent,4=Slightly Useful
+,,,,2,,2=Mostly Informative,3=Moderately Coherent,4=Slightly Useful
+,,,,3,,2=Mostly Informative,4=Slightly Coherent,4=Slightly Useful
+,,,,4,,1=Totally Informative,4=Slightly Coherent,4=Slightly Useful
+,,,,5,,1=Totally Informative,4=Slightly Coherent,4=Slightly Useful
+,,,Argument Criticism and Defeat,1,,1=Totally Informative,3=Moderately Coherent,3=Moderately Useful
+,,,,2,,1=Totally Informative,3=Moderately Coherent,4=Slightly Useful
+,,,,3,,1=Totally Informative,2=Mostly Coherent,4=Slightly Useful
+,,,,4,,1=Totally Informative,2=Mostly Coherent,4=Slightly Useful
+,,,,5,,1=Totally Informative,3=Moderately Coherent,4=Slightly Useful
+DeepSeek-r1,CoT Zero Shot,GPCA,Argument Comprehension,1,,2=Mostly Informative,3=Moderately Coherent,3=Moderately Useful
+,,,,2,,2=Mostly Informative,2=Mostly Coherent,3=Moderately Useful
+,,,,3,,1=Totally Informative,4=Slightly Coherent,4=Slightly Useful
+,,,,4,,3=Moderately Informative,3=Moderately Coherent,4=Slightly Useful
+,,,,5,,1=Totally Informative,2=Mostly Coherent,3=Moderately Useful
+,,,Well-Formedness(Syntax),1,,1=Totally Informative,2=Mostly Coherent,1=Totally Useful
+,,,,2,,1=Totally Informative,3=Moderately Coherent,1=Totally Useful
+,,,,3,,2=Mostly Informative,1=Totally Coherent,2=Mostly Useful
+,,,,4,,1=Totally Informative,4=Slightly Coherent,2=Mostly Useful
+,,,,5,,1=Totally Informative,4=Slightly Coherent,1=Totally Useful
+,,,Expressive Sufficiency ,1,,1=Totally Informative,2=Mostly Coherent,3=Moderately Useful
+,,,,2,,1=Totally Informative,3=Moderately Coherent,3=Moderately Useful
+,,,,3,,1=Totally Informative,2=Mostly Coherent,3=Moderately Useful
+,,,,4,,1=Totally Informative,2=Mostly Coherent,3=Moderately Useful
+,,,,5,,1=Totally Informative,2=Mostly Coherent,3=Moderately Useful
+,,,Argument Criticism and Defeat,1,,1=Totally Informative,2=Mostly Coherent,3=Moderately Useful
+,,,,2,,1=Totally Informative,2=Mostly Coherent,3=Moderately Useful
+,,,,3,,1=Totally Informative,2=Mostly Coherent,2=Mostly Useful
+,,,,4,,1=Totally Informative,2=Mostly Coherent,2=Mostly Useful
+,,,,5,,1=Totally Informative,2=Mostly Coherent,3=Moderately Useful
+DeepSeek-R1,CoT One Shot,GPCA,Argument Comprehension,1,,1=Totally Informative,2=Mostly Coherent,3=Moderately Useful
+,,,,2,,1=Totally Informative,2=Mostly Coherent,3=Moderately Useful
+,,,,3,,1=Totally Informative,3=Moderately Coherent,3=Moderately Useful
+,,,,4,,1=Totally Informative,2=Mostly Coherent,3=Moderately Useful
+,,,,5,,1=Totally Informative,2=Mostly Coherent,3=Moderately Useful
+,,,Well-Formedness(Syntax),1,,1=Totally Informative,2=Mostly Coherent,1=Totally Useful
+,,,,2,,1=Totally Informative,3=Moderately Coherent,1=Totally Useful
+,,,,3,,2=Mostly Informative,1=Totally Coherent,2=Mostly Useful
+,,,,4,,1=Totally Informative,4=Slightly Coherent,2=Mostly Useful
+,,,,5,,1=Totally Informative,4=Slightly Coherent,1=Totally Useful
+,,,Expressive Sufficiency ,1,,1=Totally Informative,2=Mostly Coherent,2=Mostly Useful
+,,,,2,,1=Totally Informative,3=Moderately Coherent,3=Moderately Useful
+,,,,3,,1=Totally Informative,3=Moderately Coherent,2=Mostly Useful
+,,,,4,,2=Mostly Informative,3=Moderately Coherent,2=Mostly Useful
+,,,,5,,1=Totally Informative,3=Moderately Coherent,4=Slightly Useful
+,,,Argument Criticism and Defeat,1,,1=Totally Informative,2=Mostly Coherent,3=Moderately Useful
+,,,,2,,1=Totally Informative,2=Mostly Coherent,3=Moderately Useful
+,,,,3,,1=Totally Informative,2=Mostly Coherent,2=Mostly Useful
+,,,,4,,1=Totally Informative,2=Mostly Coherent,2=Mostly Useful
+,,,,5,,1=Totally Informative,2=Mostly Coherent,3=Moderately Useful
