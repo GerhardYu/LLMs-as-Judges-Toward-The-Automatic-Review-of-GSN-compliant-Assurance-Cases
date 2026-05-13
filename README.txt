@@ -11,7 +11,7 @@ This repository contains the resources created for the research work on LLMs as 
 **CoT Zero-Shot:** Argument Comprehension, Well-Formedness (Syntax), Expressive Sufficiency, Argument Criticism and Defeat.
 **CoT One-Shot:** Argument Comprehension, Well-Formedness (Syntax), Expressive Sufficiency, Argument Criticism and Defeat.
 
-### Good Thing and Bad Thing
+### LLM Review Capabilities and Issues
 **Description** - A simple taxonomy that shows what the LLMs capabilities and weaknesses are when reviewing assurance cases.
 
 ### LLM Review
